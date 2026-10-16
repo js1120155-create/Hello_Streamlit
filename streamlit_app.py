@@ -22,10 +22,10 @@ with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3242/3242257.png", width=100)
 
     # 顯示基本資料
-    st.write(f"**姓名：** {李晏丞}")
-    st.write(f"**班級：** {高ㄧ 15 班}")
-    st.write(f"**學號：** {511503}")
-    st.write(f"**組別：** {高一自主學習組}")
+    st.write(f"**姓名：** {my_name}")
+    st.write(f"**班級：** {my_class}")
+    st.write(f"**學號：** {my_id}")
+    st.write(f"**組別：** {my_group}")
 
     st.divider()
     st.subheader("🛠 我學會的工具")
